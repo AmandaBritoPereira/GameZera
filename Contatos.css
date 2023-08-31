@@ -13,8 +13,8 @@ body {
     background-color: #f9f9f9;
     box-sizing: border-box;
     flex-basis: 70%;
-    height: 31.2500em;
-    margin-bottom: 20px;
+    height: 44.7em;
+    margin-bottom: 2.7em;
   }
   .map-address-mapagoogle{
     width: 100%;
@@ -22,28 +22,39 @@ body {
   }
   .map {
     flex-basis: 70%;
-    height: 31.2500em;
-    padding: 0.8em 0.8em 0em 0.8em; 
-    background-color: #e0e0e0;
-    
-  }
-  .address {
-    font-size: 14px;
-    color: #555;
+    padding: 0.7em 0.7em 0.7em 0.7em; 
+    background-color: #f9f9f9;
   }
   .address p{
-    padding: 20px;
     font-size: 16px;
+  }
+  .itenstexto{
+    padding-left: 20px;
+  }
+  .address h2{
+    padding-left: 2.5em;
+  }
+  .ItensdeContatos img{
+    padding-right: 0.5em;
+  }
+  .ItensdeContatos p{
+    display: flex;
+    align-items: center;
+  }
+  .endereçotexto {
+    padding-left: 3.2em;
   }
   .about-company {
     flex-basis: 70%;
     background-color: #f9f9f9;
-    padding: 20px;
+    padding: 1em 2em 1em 2.5em;
     box-sizing: border-box;
   }
   .company-info {
     font-size: 16px;
-    color: #333;
+    /*color: #333;*/
+    text-align: justify;
+    line-height: 1.5em;
   }
   
   @media (max-width: 768px) {
@@ -54,7 +65,18 @@ body {
     .about-company {
       flex-basis: 100%;
     }
+    .company-info,.address p {
+      font-size: 14px;
+    }
+    .company-info {
+    text-align: left;
+    line-height: 1.5em;
+    }
+     
+    .address h2, .company-info h2 {
+      font-size: 20px;
+    }
   }
-  .map-address-mapagoogle{
     
+  .map-address-mapagoogle{
   }
