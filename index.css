@@ -30,6 +30,16 @@
   	text-decoration: none;
     color: inherit;
   }
+  .fundo {
+    background-image: url("https://i.imgur.com/vCkFBKj.png");
+    /*background-size: cover;
+    background-position: center;
+    text-align: center;*/
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 3em;
+  }
   @media (max-width: 768px) {
     .logo {
     	margin-bottom: 0.5em;
@@ -48,5 +58,8 @@
     .nav {
       flex-direction: column;
       gap: 10px;
+    }
+    .fundo{
+    	padding-bottom: 0.5em;
     }
   }
