@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais do body */
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Estilos do banner */
+.banner {
+    background-image: url('https://i.imgur.com/s5Tqa5R.png'); /* Substitua pelo caminho da imagem do banner */
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    position: relative;
+}
+.logo img {
+    height: 10em;
+}
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+/*.banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(0, 255, 220, 0.05) 40%, transparent 60%);
+    z-index: -1;
+} */
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    .banner {
+        padding: 50px 0;
+    }
+
+    .banner h1 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .banner p {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    /* Estilos para a citação */
+    .highlight-quote {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        color: #fff;
+        text-align: center;
+    }
+
+    .highlight-quote p {
+        font-style: italic;
+        font-size: 20px; /* Tamanho de fonte maior */
+        line-height: 1.5; /* Espaçamento entre linhas maior */
+        margin-top: 20px; /* Maior espaçamento acima da citação */
+    }
+
+    .quote-footer {
+        margin-top: 10px;
+    }
+}
+
+/* Estilos para a seção da citação */
+.quote-section {
+     /* Cor de fundo para a seção da citação */
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+/* Estilos adicionais para o campo de texto */
+.service-text {
+    background-color: rgba(0, 0, 0, 0.7); /* Cor de fundo com transparência */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    color: #fff;
+}
+
+.service-text h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-text p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.service-text ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.service-text li {
+    margin-bottom: 5px;
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD700; /* Cor do ouro */
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #222;
+    color: #FFD700; /* Cor do ouro */
+}
+
+/* Estilos da seção de serviços */
+.services {
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.service-text {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.service-text h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-text p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.service-text ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.service-text li {
+    margin-bottom: 5px;
+}
