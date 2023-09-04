@@ -62,4 +62,10 @@
     .fundo{
     	padding-bottom: 0.5em;
     }
+    .borda {
+   	border: solid;
+    border-width: thick;
+    border-width: 1px;
+    border-color: #333;
+    }
   }
