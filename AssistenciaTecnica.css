@@ -15,8 +15,7 @@ body {
 .services {
     color: #000;
     text-align: center;
-    padding: 1.5em 0em 2em 0em;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2em 0em 2em 0em;
     border-color: #333;
 }
 .service-text {
@@ -36,7 +35,7 @@ body {
     font-size: 24px;
     margin-bottom: 10px;
 }
-.service-text p {
+.service-textp {
     font-size: 16px;
     margin-bottom: 1em;
     font-weight: bold;
@@ -94,24 +93,11 @@ body {
 }
 
 /* Estilos para a seção da citação */
-
-.highlight-quote{
-    text-align: center;
-    background-color: #edebea;
-    padding: 1em 20px;
+.service-citacao{
     line-height: 1.5em;
     color: #000;
-    border-radius: 0.5em;
-    border: solid;
-    border-width: thick;
-    border-width: 1px;
-    border-color: #333;
-}.quote-section {
-     /* Cor de fundo para a seção da citação */
-    margin: 2em 9em;
-}
-.quote-footer{
-    padding-top: 0.5em;
+    padding: 0.3em;
+    font-size: 1em;
 }
 .logo{
     display: flex;
@@ -124,8 +110,18 @@ body {
 
 /* Estilos para dispositivos móveis */
 @media (max-width: 768px) {
+    .services {
+        color: #000;
+        text-align: center;
+        padding: 0em 0em 2em 0em;
+        border-color: #333;
+    }
+    .serviceAdapt{
+        padding: 2em 0em 2em 0em;
+    }
     .banner {
         padding: 50px 0;
+        background-size: auto 100%;
     }
     .banner h1 {
         font-size: 28px;
@@ -135,26 +131,7 @@ body {
         font-size: 16px;
         margin-bottom: 20px;
     }
-
-    /* Estilos para a citação */
-    .highlight-quote {
-        background-color: rgba(0, 0, 0, 0.7);
-        padding: 20px;
-        border-radius: 1.5em;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        color: #fff;
-        text-align: center;
-        line-height: 1.5em;
-    }
-    .highlight-quote p {
-        font-style: italic;
-        font-size: 20px; /* Tamanho de fonte maior */
-        margin-top: 15px; /* Maior espaçamento acima da citação */
-    }
-    .quote-footer {
-        margin-top: 10px;
-    }
     .logo img {
-        height: 3em;
-        margin-bottom: 1.2em;
+        height: 4em;
+        margin-bottom: 2em;
     }
